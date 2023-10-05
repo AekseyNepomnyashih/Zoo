@@ -1,4 +1,16 @@
 package Zoo.Animals;
+import Zoo.Food.Food;
 
-public class Animal {
+public abstract class Animal {
+    public void eat(Food food) {
+
+    }
+    public String swim(){
+        return swim();
+    }
+
+    public String voice (){
+        return voice();
+    }
+
 }
